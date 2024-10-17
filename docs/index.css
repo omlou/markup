@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  bottom: 0;
+}
+.container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.left,.right{
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  bottom: 0;
+  border-style: solid;
+  border-color: #e3e3e3;
+  overflow: auto;
+}
+.left{
+  width: 50%;
+  border-width: 1px;
+}
+.right{
+  width: 50%;
+  right: 0;
+  border-width: 1px 1px 1px 0;
+}
+.markdown{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 30px 40px;
+  min-height: 100%;
+  resize: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  font-family: Menlo, Monaco, Consolas, "Courier New", "Microsoft Yahei", monospace;
+}
+.markdown:focus{
+  outline: none;
+}
